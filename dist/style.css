@@ -1,0 +1,44 @@
+#input-container{
+    display: grid;
+    justify-items: center;
+}
+
+#button-container{
+    display: grid;
+    justify-items: center;
+}
+
+#header{
+    display: grid;
+    justify-items: center;
+}
+
+
+
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(230px, 1fr) )
+}
+
+.players{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+ #image{
+    display: grid;
+    width: 150px;
+    height: auto;
+}
