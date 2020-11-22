@@ -1,17 +1,28 @@
 {
   "name": "my-roster",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "review": "node node_modules/elevation-pr/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "elevation-pr": "^2.1.0",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "urllib": "^2.36.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazyDiamond520/MyRoster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrazyDiamond520/MyRoster/issues"
+  },
+  "homepage": "https://github.com/CrazyDiamond520/MyRoster#readme",
+  "description": ""
 }
